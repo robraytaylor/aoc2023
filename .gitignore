@@ -10,4 +10,10 @@ obj/
 /node_modules
 /wwwroot/node_modules
 
+# Input files
+
+input.txt
+
 # End of https://www.toptal.com/developers/gitignore/api/dotnetcore
+
+.fake
