@@ -65,12 +65,6 @@ class HandComparer : IComparer<string>
             }
         }
 
-        if(xRank==yRank)
-        {
-            Console.WriteLine($"Input {x} {y}");
-            Console.WriteLine($"Equal {xHand} {yHand}");
-        }
-
         return xRank > yRank ? -1 : xRank == yRank ? 0 : 1;
     }
 
